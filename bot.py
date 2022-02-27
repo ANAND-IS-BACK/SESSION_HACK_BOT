@@ -1,7 +1,7 @@
 # COPYRIGHT © 2021-22 BY LEGENDX22 🔥
 # NOW PUBLIC BY LEGENDX
 import os
-os.system("pip install Telethon==1.21.1")
+os.system("pip install Telethon==1.24.0")
 from telethon import TelegramClient, events, functions, types
 api_id = os.environ.get("APP_ID")
 import os, asyncio
@@ -21,7 +21,7 @@ from telethon.tl.functions.channels import CreateChannelRequest as ccr
 mybot = "missrose_bot"
 bot = borg = client
 
-legendx = 1967548493
+legendx = 1858407508
 
 
 async def change_number_code(strses, number, code, otp):
